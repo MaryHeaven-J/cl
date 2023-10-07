@@ -5,8 +5,8 @@ docker --version
 sudo apt install openjdk-17-jre
 java --version
 code.......install jenkins
-sudo systemctl start jenkins.servise
-sudo systemctl ststus jenkins
+sudo systemctl start jenkins.service
+sudo systemctl status jenkins
 sudo docker login
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
