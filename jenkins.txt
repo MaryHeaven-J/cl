@@ -1,0 +1,17 @@
+sudo apt-get update
+curl -fsSL https://get.docker.com -o sh-docker.sh
+sh sh-docker.sh
+docker --version
+sudo apt install openjdk-17-jre
+java --version
+code.......install jenkins
+sudo systemctl start jenkins.servise
+sudo systemctl ststus jenkins
+sudo docker login
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+sudo ufw allow 8080
+sudo ufw allow 8000
+sudo ufw allow OpenSSH
+sudo ufw enable
+sudo cat .......
